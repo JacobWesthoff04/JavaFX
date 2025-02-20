@@ -5,11 +5,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.web.WebView?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hellofx.HelloController">
    <children>
       <WebView fx:id="webView" layoutY="83.0" prefHeight="317.0" prefWidth="600.0" />
-      <Button layoutX="7.0" layoutY="58.0" mnemonicParsing="false" onAction="#loadPage" text="Load" />
+      <Button layoutY="58.0" mnemonicParsing="false" onAction="#loadPage" text="Load" />
       <TextField fx:id="textField" layoutY="33.0" onAction="#loadPage" prefHeight="25.0" prefWidth="600.0" />
+      <Button layoutX="42.0" layoutY="58.0" mnemonicParsing="false" onAction="#refreshPage" text="Refresh" />
+      <Button layoutX="123.0" layoutY="58.0" mnemonicParsing="false" onAction="#zoomOut" text="-" />
+      <Button layoutX="98.0" layoutY="58.0" mnemonicParsing="false" onAction="#zoomIn" text="+" />
+      <Button layoutX="144.0" layoutY="58.0" mnemonicParsing="false" onAction="#displayHistory" text="History" />
    </children>
 </AnchorPane>
