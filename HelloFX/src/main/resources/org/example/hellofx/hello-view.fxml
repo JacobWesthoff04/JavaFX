@@ -14,5 +14,8 @@
       <Button layoutX="123.0" layoutY="58.0" mnemonicParsing="false" onAction="#zoomOut" text="-" />
       <Button layoutX="98.0" layoutY="58.0" mnemonicParsing="false" onAction="#zoomIn" text="+" />
       <Button layoutX="144.0" layoutY="58.0" mnemonicParsing="false" onAction="#displayHistory" text="History" />
+      <Button layoutX="198.0" layoutY="58.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="239.0" layoutY="58.0" mnemonicParsing="false" onAction="#forward" text="Foreward" />
+      <Button layoutX="300.0" layoutY="58.0" mnemonicParsing="false" onAction="#executeJS" text="execute JS" />
    </children>
 </AnchorPane>
